@@ -37,11 +37,11 @@ class myHandler(BaseHTTPRequestHandler):
                 mimetype='text/css'
                 sendReply = True
             if self.path.endswith(".js"):
-				mimetype='application/javascript'
-				sendReply = True
+		mimetype='application/javascript'
+		sendReply = True
             if self.path.endswith(".json"):
-				mimetype='application/json'
-				sendReply = True
+		mimetype='application/json'
+		sendReply = True
             if self.path.endswith(".ttf"):
                 mimetype='application/x-font-ttf'
                 sendReply = True
